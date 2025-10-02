@@ -19,6 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
@@ -28,12 +29,17 @@ input {
   width: 400px;
 }
 
+ul {
+  padding: 0;
+}
+
 li {
   list-style: none;
 }
 
 a {
   text-decoration: none;
+  color: #81818c;
 }
 
 .header {
@@ -49,4 +55,17 @@ a {
 
 .footer {
   display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  align-items: flex-end;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 16px;
+  margin: 16px 16px;
+}
+
+.buttons {
+  margin-top: 16px;
 }
